@@ -1,0 +1,5 @@
+2021/03/31 11:56:57 error while reading the file "/csvserver/inputdata": open /csvserver/inputdata: no such file or directory
+2021/03/31 12:00:04 listening on ****
+2021/03/31 12:00:09 wrote 625 bytes for /
+2021/03/31 12:00:10 wrote 625 bytes for /favicon.ico
+2021/03/31 12:17:06 wrote 142 bytes for /raw
