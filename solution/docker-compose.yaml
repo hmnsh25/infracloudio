@@ -4,3 +4,11 @@ services:
     build: .
     ports:
       - "9393:9300"
+  promcontainer:
+    image: "prom/prometheus:v2.22.0"
+    ports:
+      - 9090:9090
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
